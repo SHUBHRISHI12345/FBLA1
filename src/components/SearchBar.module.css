@@ -1,0 +1,9 @@
+/**
+ * SearchBar Component Styles
+ */
+
+.searchBar {
+  width: 100%;
+  max-width: 500px;
+}
+

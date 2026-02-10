@@ -1,0 +1,810 @@
+{
+  "businesses": [
+    {
+      "id": "biz-001",
+      "name": "Mama's Italian Kitchen",
+      "category": "food",
+      "description": "Family-owned Italian restaurant serving authentic pasta and pizza since 1995. Known for our homemade marinara sauce and warm, welcoming atmosphere.",
+      "address": "123 Main Street, Springfield, IL 62701",
+      "phone": "(555) 234-5678",
+      "deals": [
+        {
+          "id": "deal-001",
+          "businessId": "biz-001",
+          "title": "Lunch Special",
+          "description": "20% off all pasta dishes, Monday-Friday 11am-3pm",
+          "discount": "20% off",
+          "code": "LUNCH20",
+          "expiryDate": "2025-12-31",
+          "active": true
+        },
+        {
+          "id": "deal-002",
+          "businessId": "biz-001",
+          "title": "Family Night",
+          "description": "Buy one large pizza, get one medium pizza free every Thursday",
+          "discount": "Buy 1 Get 1 Free",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-001",
+          "businessId": "biz-001",
+          "userName": "Sarah M.",
+          "rating": 5,
+          "comment": "Best Italian food in town! The lasagna is incredible.",
+          "date": "2025-01-10",
+          "verified": true
+        },
+        {
+          "id": "rev-002",
+          "businessId": "biz-001",
+          "userName": "Mike T.",
+          "rating": 4,
+          "comment": "Great food and friendly staff. The pizza is amazing!",
+          "date": "2025-01-08",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-002",
+      "name": "The Coffee Corner",
+      "category": "food",
+      "description": "Local coffee shop featuring artisanal roasts, fresh pastries, and a cozy atmosphere perfect for studying or catching up with friends.",
+      "address": "456 Oak Avenue, Springfield, IL 62701",
+      "phone": "(555) 345-6789",
+      "deals": [
+        {
+          "id": "deal-003",
+          "businessId": "biz-002",
+          "title": "Student Discount",
+          "description": "15% off all drinks with valid student ID",
+          "discount": "15% off",
+          "code": "STUDENT15",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-003",
+          "businessId": "biz-002",
+          "userName": "Emma L.",
+          "rating": 5,
+          "comment": "Best coffee in Springfield! The baristas are so friendly.",
+          "date": "2025-01-12",
+          "verified": true
+        },
+        {
+          "id": "rev-004",
+          "businessId": "biz-002",
+          "userName": "David K.",
+          "rating": 4,
+          "comment": "Great atmosphere for working. WiFi is fast and reliable.",
+          "date": "2025-01-09",
+          "verified": true
+        },
+        {
+          "id": "rev-005",
+          "businessId": "biz-002",
+          "userName": "Lisa P.",
+          "rating": 5,
+          "comment": "Love their seasonal lattes! Always something new to try.",
+          "date": "2025-01-05",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.67,
+      "reviewCount": 3,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-003",
+      "name": "Burger Barn",
+      "category": "food",
+      "description": "Classic American diner serving juicy burgers, crispy fries, and thick milkshakes. A local favorite for over 20 years.",
+      "address": "789 Elm Street, Springfield, IL 62702",
+      "phone": "(555) 456-7890",
+      "deals": [
+        {
+          "id": "deal-004",
+          "businessId": "biz-003",
+          "title": "Happy Hour",
+          "description": "Half-price appetizers Monday-Friday 3pm-6pm",
+          "discount": "50% off",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-006",
+          "businessId": "biz-003",
+          "userName": "Tom R.",
+          "rating": 4,
+          "comment": "Best burgers in town! The classic cheeseburger never disappoints.",
+          "date": "2025-01-11",
+          "verified": true
+        },
+        {
+          "id": "rev-007",
+          "businessId": "biz-003",
+          "userName": "Jennifer W.",
+          "rating": 5,
+          "comment": "Great value for money. The milkshakes are to die for!",
+          "date": "2025-01-07",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-004",
+      "name": "Sushi Express",
+      "category": "food",
+      "description": "Fresh sushi and Japanese cuisine prepared daily. We offer traditional rolls, sashimi, and hot entrees in a modern setting.",
+      "address": "321 Pine Road, Springfield, IL 62702",
+      "phone": "(555) 567-8901",
+      "deals": [
+        {
+          "id": "deal-005",
+          "businessId": "biz-004",
+          "title": "Lunch Combo",
+          "description": "Any two rolls plus miso soup for $12.99, available weekdays",
+          "discount": "$12.99 Combo",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-008",
+          "businessId": "biz-004",
+          "userName": "Alex C.",
+          "rating": 5,
+          "comment": "Fresh fish and creative rolls. The spicy tuna roll is amazing!",
+          "date": "2025-01-13",
+          "verified": true
+        },
+        {
+          "id": "rev-009",
+          "businessId": "biz-004",
+          "userName": "Maria S.",
+          "rating": 4,
+          "comment": "Great quality sushi at reasonable prices. Will definitely return.",
+          "date": "2025-01-06",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-005",
+      "name": "Sweet Treats Bakery",
+      "category": "food",
+      "description": "Artisan bakery specializing in custom cakes, fresh bread, and delicious pastries. Everything is baked fresh daily.",
+      "address": "654 Maple Drive, Springfield, IL 62701",
+      "phone": "(555) 678-9012",
+      "deals": [
+        {
+          "id": "deal-006",
+          "businessId": "biz-005",
+          "title": "Early Bird Special",
+          "description": "20% off all pastries before 9am",
+          "discount": "20% off",
+          "code": "EARLY20",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-010",
+          "businessId": "biz-005",
+          "userName": "Rachel B.",
+          "rating": 5,
+          "comment": "Best birthday cakes! They made my daughter's cake exactly as requested.",
+          "date": "2025-01-14",
+          "verified": true
+        },
+        {
+          "id": "rev-011",
+          "businessId": "biz-005",
+          "userName": "Chris H.",
+          "rating": 5,
+          "comment": "The croissants are incredible! So flaky and buttery.",
+          "date": "2025-01-04",
+          "verified": true
+        }
+      ],
+      "averageRating": 5.0,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-006",
+      "name": "Taco Fiesta",
+      "category": "food",
+      "description": "Authentic Mexican street tacos, burritos, and quesadillas. Fresh ingredients and bold flavors in every bite.",
+      "address": "987 Cedar Lane, Springfield, IL 62702",
+      "phone": "(555) 789-0123",
+      "deals": [
+        {
+          "id": "deal-007",
+          "businessId": "biz-006",
+          "title": "Taco Tuesday",
+          "description": "$1.50 street tacos every Tuesday",
+          "discount": "$1.50 tacos",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-012",
+          "businessId": "biz-006",
+          "userName": "James F.",
+          "rating": 5,
+          "comment": "Authentic flavors! The carne asada tacos are my favorite.",
+          "date": "2025-01-15",
+          "verified": true
+        },
+        {
+          "id": "rev-013",
+          "businessId": "biz-006",
+          "userName": "Patricia N.",
+          "rating": 4,
+          "comment": "Great food and fast service. The salsa bar is amazing!",
+          "date": "2025-01-03",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-007",
+      "name": "Green Garden Cafe",
+      "category": "food",
+      "description": "Vegetarian and vegan-friendly cafe offering healthy salads, smoothies, and plant-based meals. Fresh, organic ingredients.",
+      "address": "147 Birch Boulevard, Springfield, IL 62701",
+      "phone": "(555) 890-1234",
+      "deals": [
+        {
+          "id": "deal-008",
+          "businessId": "biz-007",
+          "title": "Smoothie Special",
+          "description": "Buy one smoothie, get one 50% off",
+          "discount": "50% off second",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-014",
+          "businessId": "biz-007",
+          "userName": "Michelle Y.",
+          "rating": 4,
+          "comment": "Love the healthy options! The quinoa bowl is delicious.",
+          "date": "2025-01-16",
+          "verified": true
+        },
+        {
+          "id": "rev-015",
+          "businessId": "biz-007",
+          "userName": "Robert D.",
+          "rating": 5,
+          "comment": "Even as a meat-eater, I love this place! Great flavors.",
+          "date": "2025-01-02",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-008",
+      "name": "Vintage Threads Boutique",
+      "category": "retail",
+      "description": "Curated collection of vintage and modern clothing, accessories, and unique finds. Supporting sustainable fashion.",
+      "address": "258 Fashion Street, Springfield, IL 62701",
+      "phone": "(555) 901-2345",
+      "deals": [
+        {
+          "id": "deal-009",
+          "businessId": "biz-008",
+          "title": "New Arrival Sale",
+          "description": "25% off all new arrivals this month",
+          "discount": "25% off",
+          "code": "NEW25",
+          "expiryDate": "2025-01-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-016",
+          "businessId": "biz-008",
+          "userName": "Amanda G.",
+          "rating": 5,
+          "comment": "Found the perfect vintage dress! Great selection and prices.",
+          "date": "2025-01-17",
+          "verified": true
+        },
+        {
+          "id": "rev-017",
+          "businessId": "biz-008",
+          "userName": "Kevin M.",
+          "rating": 4,
+          "comment": "Unique pieces you won't find anywhere else. Staff is helpful.",
+          "date": "2025-01-11",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-009",
+      "name": "Tech Hub Electronics",
+      "category": "retail",
+      "description": "Local electronics store offering computers, phones, accessories, and repair services. Expert advice and competitive prices.",
+      "address": "369 Tech Avenue, Springfield, IL 62702",
+      "phone": "(555) 012-3456",
+      "deals": [
+        {
+          "id": "deal-010",
+          "businessId": "biz-009",
+          "title": "Student Discount",
+          "description": "10% off all electronics with student ID",
+          "discount": "10% off",
+          "code": "STUDENT10",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-018",
+          "businessId": "biz-009",
+          "userName": "Daniel L.",
+          "rating": 4,
+          "comment": "Fixed my laptop quickly and affordably. Great service!",
+          "date": "2025-01-18",
+          "verified": true
+        },
+        {
+          "id": "rev-019",
+          "businessId": "biz-009",
+          "userName": "Nicole T.",
+          "rating": 5,
+          "comment": "Knowledgeable staff helped me find the perfect laptop.",
+          "date": "2025-01-12",
+          "verified": true
+        },
+        {
+          "id": "rev-020",
+          "businessId": "biz-009",
+          "userName": "Brian K.",
+          "rating": 4,
+          "comment": "Good prices and they stand behind their products.",
+          "date": "2025-01-08",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.33,
+      "reviewCount": 3,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-010",
+      "name": "Book Nook",
+      "category": "retail",
+      "description": "Independent bookstore featuring new releases, classics, and local authors. Cozy reading nooks and monthly book clubs.",
+      "address": "741 Library Lane, Springfield, IL 62701",
+      "phone": "(555) 123-4567",
+      "deals": [
+        {
+          "id": "deal-011",
+          "businessId": "biz-010",
+          "title": "Book Club Discount",
+          "description": "15% off for book club members",
+          "discount": "15% off",
+          "code": "CLUB15",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-021",
+          "businessId": "biz-010",
+          "userName": "Laura J.",
+          "rating": 5,
+          "comment": "My favorite bookstore! Great selection and knowledgeable staff.",
+          "date": "2025-01-19",
+          "verified": true
+        },
+        {
+          "id": "rev-022",
+          "businessId": "biz-010",
+          "userName": "Mark P.",
+          "rating": 5,
+          "comment": "Love the atmosphere and the book recommendations. Perfect place to browse.",
+          "date": "2025-01-13",
+          "verified": true
+        }
+      ],
+      "averageRating": 5.0,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-011",
+      "name": "Home & Garden Essentials",
+      "category": "retail",
+      "description": "Everything for your home and garden. From furniture to plants, tools to decor. Quality products at fair prices.",
+      "address": "852 Garden Way, Springfield, IL 62702",
+      "phone": "(555) 234-5678",
+      "deals": [
+        {
+          "id": "deal-012",
+          "businessId": "biz-011",
+          "title": "Spring Sale",
+          "description": "30% off all garden supplies",
+          "discount": "30% off",
+          "code": "SPRING30",
+          "expiryDate": "2025-04-30",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-023",
+          "businessId": "biz-011",
+          "userName": "Susan R.",
+          "rating": 4,
+          "comment": "Found everything I needed for my garden. Great selection!",
+          "date": "2025-01-20",
+          "verified": true
+        },
+        {
+          "id": "rev-024",
+          "businessId": "biz-011",
+          "userName": "Paul W.",
+          "rating": 5,
+          "comment": "Helpful staff and quality products. Will shop here again.",
+          "date": "2025-01-14",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-012",
+      "name": "Sports Zone",
+      "category": "retail",
+      "description": "Local sports equipment and apparel store. Serving athletes of all levels with expert advice and quality gear.",
+      "address": "963 Athletic Drive, Springfield, IL 62701",
+      "phone": "(555) 345-6789",
+      "deals": [
+        {
+          "id": "deal-013",
+          "businessId": "biz-012",
+          "title": "Team Discount",
+          "description": "20% off for team orders of 10+ items",
+          "discount": "20% off",
+          "code": "TEAM20",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-025",
+          "businessId": "biz-012",
+          "userName": "Coach Johnson",
+          "rating": 5,
+          "comment": "Great prices on team equipment. Fast service too!",
+          "date": "2025-01-21",
+          "verified": true
+        },
+        {
+          "id": "rev-026",
+          "businessId": "biz-012",
+          "userName": "Jessica A.",
+          "rating": 4,
+          "comment": "Found the perfect running shoes. Staff knows their stuff.",
+          "date": "2025-01-15",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-013",
+      "name": "Artisan Crafts Market",
+      "category": "retail",
+      "description": "Handmade gifts, jewelry, pottery, and art from local artisans. Unique items you won't find anywhere else.",
+      "address": "159 Creative Court, Springfield, IL 62702",
+      "phone": "(555) 456-7890",
+      "deals": [
+        {
+          "id": "deal-014",
+          "businessId": "biz-013",
+          "title": "Holiday Special",
+          "description": "Buy 2 items, get 1 free on select merchandise",
+          "discount": "Buy 2 Get 1 Free",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-027",
+          "businessId": "biz-013",
+          "userName": "Emily C.",
+          "rating": 5,
+          "comment": "Beautiful handmade items! Perfect for unique gifts.",
+          "date": "2025-01-22",
+          "verified": true
+        },
+        {
+          "id": "rev-028",
+          "businessId": "biz-013",
+          "userName": "Ryan B.",
+          "rating": 4,
+          "comment": "Supporting local artists while finding great gifts. Love it!",
+          "date": "2025-01-16",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-014",
+      "name": "Style Cuts Salon",
+      "category": "services",
+      "description": "Full-service salon offering haircuts, coloring, styling, and spa treatments. Experienced stylists and modern techniques.",
+      "address": "357 Beauty Boulevard, Springfield, IL 62701",
+      "phone": "(555) 567-8901",
+      "deals": [
+        {
+          "id": "deal-015",
+          "businessId": "biz-014",
+          "title": "First Visit Discount",
+          "description": "20% off first haircut for new customers",
+          "discount": "20% off",
+          "code": "NEW20",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-029",
+          "businessId": "biz-014",
+          "userName": "Ashley M.",
+          "rating": 5,
+          "comment": "Best haircut I've ever had! The stylist really listened to what I wanted.",
+          "date": "2025-01-23",
+          "verified": true
+        },
+        {
+          "id": "rev-030",
+          "businessId": "biz-014",
+          "userName": "Tyler S.",
+          "rating": 4,
+          "comment": "Great service and friendly staff. Will definitely return.",
+          "date": "2025-01-17",
+          "verified": true
+        },
+        {
+          "id": "rev-031",
+          "businessId": "biz-014",
+          "userName": "Olivia R.",
+          "rating": 5,
+          "comment": "Love my new color! The salon is clean and professional.",
+          "date": "2025-01-10",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.67,
+      "reviewCount": 3,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-015",
+      "name": "Quick Fix Auto Repair",
+      "category": "services",
+      "description": "Honest and reliable auto repair services. Oil changes, brakes, tires, and general maintenance. Fast turnaround.",
+      "address": "468 Mechanic Street, Springfield, IL 62702",
+      "phone": "(555) 678-9012",
+      "deals": [
+        {
+          "id": "deal-016",
+          "businessId": "biz-015",
+          "title": "Oil Change Special",
+          "description": "$29.99 oil change with coupon",
+          "discount": "$29.99",
+          "code": "OIL29",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-032",
+          "businessId": "biz-015",
+          "userName": "Frank D.",
+          "rating": 5,
+          "comment": "Honest mechanics who don't try to upsell. Fixed my car quickly and fairly.",
+          "date": "2025-01-24",
+          "verified": true
+        },
+        {
+          "id": "rev-033",
+          "businessId": "biz-015",
+          "userName": "Karen H.",
+          "rating": 4,
+          "comment": "Great service and reasonable prices. Trustworthy shop.",
+          "date": "2025-01-18",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-016",
+      "name": "Clean Sweep Cleaning Services",
+      "category": "services",
+      "description": "Professional residential and commercial cleaning services. Eco-friendly products and thorough service.",
+      "address": "579 Service Road, Springfield, IL 62701",
+      "phone": "(555) 789-0123",
+      "deals": [
+        {
+          "id": "deal-017",
+          "businessId": "biz-016",
+          "title": "First Clean Discount",
+          "description": "50% off first cleaning service",
+          "discount": "50% off",
+          "code": "FIRST50",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-034",
+          "businessId": "biz-016",
+          "userName": "Nancy G.",
+          "rating": 5,
+          "comment": "My house has never been cleaner! Professional and reliable.",
+          "date": "2025-01-25",
+          "verified": true
+        },
+        {
+          "id": "rev-035",
+          "businessId": "biz-016",
+          "userName": "Steve L.",
+          "rating": 4,
+          "comment": "Great service for our office. They're always on time.",
+          "date": "2025-01-19",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-017",
+      "name": "Legal Eagles Law Firm",
+      "category": "services",
+      "description": "Experienced attorneys providing legal services for individuals and small businesses. Free consultations available.",
+      "address": "681 Justice Avenue, Springfield, IL 62702",
+      "phone": "(555) 890-1234",
+      "deals": [
+        {
+          "id": "deal-018",
+          "businessId": "biz-017",
+          "title": "Free Consultation",
+          "description": "Complimentary 30-minute consultation for new clients",
+          "discount": "Free",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-036",
+          "businessId": "biz-017",
+          "userName": "Michael T.",
+          "rating": 5,
+          "comment": "Helped me with my business contract. Professional and knowledgeable.",
+          "date": "2025-01-26",
+          "verified": true
+        },
+        {
+          "id": "rev-037",
+          "businessId": "biz-017",
+          "userName": "Diana F.",
+          "rating": 4,
+          "comment": "Great legal advice and fair rates. Highly recommend.",
+          "date": "2025-01-20",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "biz-018",
+      "name": "Fit Zone Gym",
+      "category": "services",
+      "description": "Full-service fitness center with modern equipment, group classes, and personal training. Open 24/7 for members.",
+      "address": "792 Fitness Way, Springfield, IL 62701",
+      "phone": "(555) 901-2345",
+      "deals": [
+        {
+          "id": "deal-019",
+          "businessId": "biz-018",
+          "title": "New Member Special",
+          "description": "First month free with annual membership",
+          "discount": "First Month Free",
+          "code": "FITFREE",
+          "expiryDate": "2025-12-31",
+          "active": true
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-038",
+          "businessId": "biz-018",
+          "userName": "Carlos M.",
+          "rating": 5,
+          "comment": "Best gym in town! Great equipment and friendly members.",
+          "date": "2025-01-27",
+          "verified": true
+        },
+        {
+          "id": "rev-039",
+          "businessId": "biz-018",
+          "userName": "Angela K.",
+          "rating": 4,
+          "comment": "Love the group classes. The trainers are motivating!",
+          "date": "2025-01-21",
+          "verified": true
+        }
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 2,
+      "createdAt": "2025-01-01"
+    }
+  ]
+}
+
+
